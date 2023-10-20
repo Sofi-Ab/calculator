@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contaire">
+        <div class="main_heading" >
+            <div class="titre">Calculator</div>
+                <div class="themes" >
+                    <div class="theme_titre">Theme</div>
+                        <div class="titre-theme-toogle">
+                            <div class="number-toogle">
+                                <span class="1">1</span>
+                                <span class="2">2</span>
+                                <span class="3">3</span>
+                            </div>
+                            <div class="toogle">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        <div class="display">
+            <input type="text" id="display">
+        </div>
+     <div class="calculator">
+            <form action="">
+                <div class="div">
+                    <input type="button" value= '7' class ="number" class="btn">
+                    <input type="button" value= '8' class ="number" class="btn">
+                    <input type="button" value= '9' class ="number" class="btn">
+                    <input type="button" value= 'DEL' class="delete" id="del" >
+                </div>
+
+                <div class="div">
+                    <input type="button" value= '4' class ="number" class="btn">
+                    <input type="button" value= '5' class ="number" class="btn">
+                    <input type="button" value= '6' class ="number" class="btn">
+                    <input type="button" value= '+' id="plus" class="opperateur" class="btn">
+                </div>
+
+                <div class="div"> 
+                    <input type="button" value= '1' class ="number" class="btn">
+                    <input type="button" value= '2' class ="number" class="btn">
+                    <input type="button" value= '3' class ="number" class="btn">
+                    <input type="button" value= '-' id="moin"  class="opperateur" class="btn">
+                </div>
+
+                <div class="div">
+                    <input type="button" value= '.' id="point" class="opperateur" class="btn">
+                    <input type="button" value= '0' class ="number" >
+                    <input type="button" value= '/' id="division" class="opperateur" class="btn">
+                    <input type="button" value= '*' id=" multipli" class="opperateur" class="btn">
+                </div>
+
+                <div class="div">
+                    <input type="button" value= 'REST' class="delete" id="rest" >
+                    <input type="button" value= '=' id="equal" class="opperateur" >
+                </div>
+            </form>
+     </div>
+   </div>
+<script src = "index.js"></script> 
+</body>
+</html>

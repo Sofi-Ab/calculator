@@ -1,0 +1,39 @@
+/* 
+$ Theme1
+$ bacgrounds
+ */
+ :root {
+    --bleu-destructure1: hsl(222, 26%, 31%);
+    --bleu-destructure: hsl(223, 31%, 20%);
+    --bleu-destructure: hsl(224, 36%, 15%);
+     /* touche */
+    --bleu-destructure-noir: hsl(225, 21%, 49%);
+    --bleu-destructure-noir: hsl(225, 21%, 49%);
+  }
+
+
+
+/* main */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'leage spartan', sans-serif;
+}
+/* body */
+body{
+  background-color: var(--bleu-destructure1) ;
+  width: 300px;
+  margin: 3rem auto;
+}
+main{
+  background-color: aliceblue;
+}
+/* main haeding*/
+.main_heading{
+ 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
